@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React from "react";
@@ -8,6 +7,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+// pages
+import Home from "./pages/Home"
 
 function App() {
   return (
@@ -45,9 +47,7 @@ function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+
 
 function About() {
   return <h2>About</h2>;
